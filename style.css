@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(270deg, #18e3ae, #17ecee, #415356);
+    background-size: 600% 600%;
+
+    -webkit-animation: backgroundAnimation 2s ease infinite;
+    -moz-animation: backgroundAnimation 2s ease infinite;
+    -o-animation: backgroundAnimation 2s ease infinite;
+    animation: backgroundAnimation 2s ease infinite;
+    background: url(images/ForsenLookingAtYou.png) right top no-repeat fixed;
+}
+
+@-webkit-keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes backgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
