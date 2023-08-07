@@ -9,6 +9,39 @@ body{
     background: url(images/ForsenLookingAtYou.png) right top no-repeat fixed;
 }
 
+body:hover
+{
+    cursor: url(images/kirby_cursor_128.png) 90 55, auto;
+}
+
+body:hover:active
+{
+    cursor: url(images/frame4.png) 90 55, auto;
+    /* animation: kirbyAnimation 1s ease 1; */
+}
+
+:any-link{
+    cursor: url(images/kirby_cursor_128.png) 90 55, auto;
+}
+:any-link:hover {
+    cursor: url(images/kirby_cursor_128.png) 90 55, auto;
+}
+a:-webkit-any-link {
+    cursor: url(images/kirby_cursor_128.png) 90 55, auto;
+}
+
+/* @keyframes kirbyAnimation {
+    0%{cursor: url(images/frame4.png);}
+    50%{cursor: url(images/frame5.png);}
+    100%{cursor: url(images/frame6.png);}
+}
+
+@keyframes kirbyAnimation {
+    0%{cursor: url(images/frame4.png);}
+    50%{cursor: url(images/frame5.png);}
+    100%{cursor: url(images/frame6.png);}
+} */
+
 @-webkit-keyframes backgroundAnimation {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
